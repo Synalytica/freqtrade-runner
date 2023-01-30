@@ -3,7 +3,7 @@
 ## Configuration
 
 ```sh
-mkdir data
+mkdir data strategies
 alias dc='docker compose'
 dc pull
 dc run --rm freqtrade create-userdir --userdir user_data
